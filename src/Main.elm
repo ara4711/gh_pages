@@ -7,7 +7,7 @@ main : H.Html msg
 main =
     H.p []
         [ H.text "Hello, "
-        , H.span [ HA.class "name" ] [ H.text "I'm Elm" ]
+        , H.span [ HA.class "name" ] [ H.text "I'm Elm in worktree" ]
         , H.text "!"
         ]
         
